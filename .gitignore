@@ -1,0 +1,31 @@
+# ===== Python cache =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Virtual env =====
+.venv/
+venv/
+ENV/
+env/
+
+# ===== Build / dist =====
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Qt / PyQt =====
+*.qrc
+*.pyi
