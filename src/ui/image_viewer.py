@@ -36,3 +36,8 @@ class ImageViewer(QWidget):
             return
         scaled = self._pix.scaled(self.label.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
         self.label.setPixmap(scaled)
+
+    def print_myname(self, e):
+        print(e)
+        
+    
