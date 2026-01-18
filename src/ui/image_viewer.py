@@ -39,5 +39,8 @@ class ImageViewer(QWidget):
 
     def print_myname(self, e):
         print(e)
+    
+    def print_mytype(self, e):
+        print(e)
         
     
