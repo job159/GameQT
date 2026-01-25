@@ -1,0 +1,6 @@
+git status
+git restore
+git restore --staged
+git stash
+git commit --amend
+git revert
